@@ -1,0 +1,7 @@
+conda activate yonghengvcid
+
+python
+
+import scanpy as sc
+
+adata = sc.read_h5ad("/net/bmc-lab4/data/kellis/users/benjames/VCID/OVR2B/Annotated_FPR0.0_withX.h5ad")
